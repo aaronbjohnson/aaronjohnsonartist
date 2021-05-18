@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from '../components/layout'
-import Gallery from '../components/gallery-layout'
+import ImageGallery from '../components/image-gallery'
 
 const GalleryPage = () => {
    return (
        <Layout pageTitle="Gallery">
-           <Gallery />
+           <ImageGallery />
        </Layout>
    )
    }
