@@ -1,12 +1,12 @@
 .container {
     margin: auto;
-    max-width: 500px;
+    max-width: 80%;
     font-family: sans-serif;
   }
   
-  /* .heading {
-    color: rgb(31, 89, 197);
-  } */
+  .heading {
+    color: rgb(0, 0, 0);
+  }
   .nav-links {
     display: flex;
     list-style: none;

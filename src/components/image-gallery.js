@@ -2,17 +2,18 @@ import React from "react";
 import "./image-gallery.css";
 import { useStaticQuery, graphql } from "gatsby";
 const ImageGallery = () => {
+
   const data = useStaticQuery(graphql`
-    query CloudinaryImage {
-      allCloudinaryMedia {
-        edges {
-          node {
-            secure_url
-          }
+  query CloudinaryImage {
+    allCloudinaryMedia {
+      edges {
+        node {
+          secure_url
         }
       }
     }
-  `);
+  }`)
+
   const clImages = data.allCloudinaryMedia.edges;
   return (
     <div>
