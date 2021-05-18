@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import {container,
-heading,
 navLinks,
 navLinkItem,
 navLinkText
