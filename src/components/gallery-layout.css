@@ -1,0 +1,19 @@
+.container {
+    margin-top: 55px;
+}
+
+.paintingThumbnail {
+    float: left;
+    margin: 20px;
+    transform-origin: center -20px;
+}
+
+.paintingThumbnail img {
+    display: block;
+    width: 200px;
+    height: 250px;
+}
+
+.paintingThumbnail figcaption {
+    text-align: center;
+}

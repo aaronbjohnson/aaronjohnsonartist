@@ -4,9 +4,9 @@
     font-family: sans-serif;
   }
   
-  .heading {
+  /* .heading {
     color: rgb(31, 89, 197);
-  }
+  } */
   .nav-links {
     display: flex;
     list-style: none;
